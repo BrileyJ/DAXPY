@@ -4,13 +4,11 @@
       program DAXPY_Test 
       !Define Variables 
       real,parameter::A=2              !constant multiplier 
-      integer :: i,Xsize,Ysize
+      integer :: i,Xsize
       integer,parameter::n=5
       real,dimension(n)::X,Y,Yinv    !square Matricies 
       
       Xsize=size(X)
-      Ysize=size(Y)
-     
 
       !Populate Matrix Z,Y 
       do i=1,Xsize 
